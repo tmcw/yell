@@ -41,3 +41,8 @@ That end bit - the random letters after the `=`, is your userid.
 
     npm install yell
     yell YOUR_YELP_USER_ID
+    
+Note, you may need to cd into the yell subdirectory, and prepend the yell command with node.
+
+    cd  node_modules/yell
+    node yell YOUR_YELP_USER_ID
